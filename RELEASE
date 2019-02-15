@@ -13,8 +13,8 @@
 
 RELEASE NOTES for the aliens catalog
 =====================================
-This is the revision "latest" of the aliens catalog.
-This is a "DEVELOPMENT" release.
+This is the revision "1.0.0" of the aliens catalog.
+This is a "TESTING" release.
 
 See https://docs.phyglos.org/aliens for more information.
 
@@ -22,4 +22,4 @@ See https://docs.phyglos.org/aliens for more information.
 MAJOR CHANGES in "latest"
 =========================
 
-*
+* Copied third party binaries from the phyglos catalog
