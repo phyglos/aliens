@@ -13,8 +13,8 @@
 
 RELEASE NOTES for the aliens catalog
 =====================================
-This is the revision "latest" of the aliens catalog.
-This is a "DEVELOPMENT" release.
+This is the revision "1.1.0" of the aliens catalog.
+This is a "STABLE" release.
 
 See https://docs.phyglos.org/aliens for more information.
 
@@ -22,4 +22,6 @@ See https://docs.phyglos.org/aliens for more information.
 MAJOR CHANGES in "latest"
 =========================
 
-*
+* Added corretto-8 bundle
+* Added virtualbox-desktop bundle
+* Upgraded to flash-player-32.0.0.142-npapi
