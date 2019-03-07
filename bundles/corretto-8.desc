@@ -1,6 +1,6 @@
 #!/bin/bash
 
 BUILD_CMD=( 
-'package	do	amazon-corretto-8.202.08.2-linux-x64   tar.gz'
-'script	        run	corretto-8-setup'
+'package  do      amazon-corretto-8.202.08.2-linux-x64   tar.gz'
+'script   run     corretto-8-setup'
 )

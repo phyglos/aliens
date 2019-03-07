@@ -3,14 +3,14 @@
 # Use different releases for x86 and x86_64
 case $BANDIT_TARGET_ARCH in
     i?86)
-	VBOX_VERSION="5.2.22"
-	;;
+        VBOX_VERSION="5.2.22"
+        ;;
     x86_64)
-	VBOX_VERSION="6.0.4"
-	;;
+        VBOX_VERSION="6.0.4"
+        ;;
 esac
 
 BUILD_CMD=(
-"alien  	do	virtualbox-$VBOX_VERSION"
+"alien    do      virtualbox-$VBOX_VERSION"
 )
 
