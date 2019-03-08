@@ -1,0 +1,6 @@
+#!/bin/bash
+
+BUILD_CMD=( 
+'package  do      jdk-11.0.2    tar.gz'
+'script   run     java-se-jdk-11-setup'
+)
