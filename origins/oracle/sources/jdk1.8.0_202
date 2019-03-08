@@ -1,0 +1,7 @@
+URL=file:$BANDIT_DOWNLOADS/oracle/jdk-8u202-linux-x64.tar.gz
+MD5=0029351f7a946f6c05b582100c7d45b7
+
+sources_prepare()
+{
+    bandit_source_rename jdk-8u202-linux-x64.tar.gz jdk1.8.0_202.tar.gz
+}
