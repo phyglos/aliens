@@ -11,15 +11,20 @@
 # implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
 #
 
-RELEASE NOTES for the aliens catalog
-=====================================
-This is the revision "latest" of the aliens catalog.
-This is a "DEVELOPMENT" release.
+RELEASE NOTES
+=============
+
+This is the revision "1.2.0" of the aliens catalog.
+This is a "STABLE" release.
 
 See https://docs.phyglos.org/aliens for more information.
 
 
-MAJOR CHANGES in "latest"
-=========================
+MAJOR CHANGES
+=============
 
-*
+* Upgraded to dropbox-68.4.102
+* Added java-se-jdk-11 bundle
+* Removed java-se-jdk-9 bundle
+* Upgraded to jdk1.8.0_202
+
