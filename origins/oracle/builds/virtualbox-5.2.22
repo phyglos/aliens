@@ -2,13 +2,13 @@
 
 case $BANDIT_TARGET_ARCH in
     i?86)
-	ARCH=i386
-	URL=https://download.virtualbox.org/virtualbox/5.2.22/VirtualBox-5.2.22-126460-Linux_x86.run
-	MD5=faba0ba18b31fcb14fd6f8c5e82c07eb
-	;;
+        ARCH=i386
+        URL=https://download.virtualbox.org/virtualbox/5.2.22/VirtualBox-5.2.22-126460-Linux_x86.run
+        MD5=faba0ba18b31fcb14fd6f8c5e82c07eb
+        ;;
     x86_64)
-	ARCH=x86_64
-	URL=https://download.virtualbox.org/virtualbox/5.2.22/VirtualBox-5.2.22-126460-Linux_amd64.run
-	MD5=313f6747b0120aef3e8ce121599576e2
-	;;
+        ARCH=x86_64
+        URL=https://download.virtualbox.org/virtualbox/5.2.22/VirtualBox-5.2.22-126460-Linux_amd64.run
+        MD5=313f6747b0120aef3e8ce121599576e2
+        ;;
 esac
