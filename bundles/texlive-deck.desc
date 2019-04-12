@@ -1,0 +1,6 @@
+#!/bin/bash
+
+BUILD_CMD=( 
+'package  do      install-tl-20190227  tar.gz deck'
+'script   run     texlive-end'
+)
