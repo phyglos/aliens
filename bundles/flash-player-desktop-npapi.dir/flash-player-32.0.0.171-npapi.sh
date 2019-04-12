@@ -5,7 +5,7 @@ build_pack()
     # Copy in build pack
     bandit_mkdir $BUILD_PACK
     cp -vR * $BUILD_PACK
-       
+    
     # Move files to /usr/share/flashplayer
     bandit_mkdir $BUILD_PACK/usr/share/flashplayer
     mv -v $BUILD_PACK/readme.txt  $BUILD_PACK/usr/share/flashplayer

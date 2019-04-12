@@ -1,0 +1,20 @@
+#!bin/bash
+
+case $BANDIT_TARGET_ARCH in
+    i?86)
+        ARCH=i386
+        URL=file:$BANDIT_DOWNLOADS/adobe/flash_player_npapi_linux.$ARCH.tar.gz
+        MD5=54dbc966db2cd84c355906d3a8a17b76
+        ;;
+    x86_64)
+        ARCH=x86_64
+        URL=file:$BANDIT_DOWNLOADS/adobe/flash_player_npapi_linux.$ARCH.tar.gz
+        MD5=67bcb9484d8f5ae5dfd38348401be0dd
+        ;;
+esac
+
+sources_prepare()
+{
+    bandit_source_rename flash_player_npapi_linux.$ARCH.tar.gz flash-player-32.0.0.171-npapi.tar.gz
+    bandit_source_repackage_into flash-player-32.0.0.171-npapi.tar.gz flash-player-32.0.0.171-npapi
+}

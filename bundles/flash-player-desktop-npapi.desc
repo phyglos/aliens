@@ -2,5 +2,5 @@
 
 BUILD_CMD=(
 # Flash Player for Firefox 
-"package  do      flash-player-32.0.0.142-npapi      tar.gz"
+"package  do      flash-player-32.0.0.171-npapi      tar.gz"
 )
