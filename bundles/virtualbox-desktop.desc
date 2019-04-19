@@ -6,11 +6,18 @@ case $BANDIT_TARGET_ARCH in
         VBOX_VERSION="5.2.28"
         ;;
     x86_64)
-        VBOX_VERSION="6.0.6"
+        case $PHY_VBOX64 in
+            "5.x") 
+                VBOX_VERSION="5.2.28"
+                ;;
+            "new") 
+                VBOX_VERSION="6.0.6"
+                ;;
+        esac
         ;;
 esac
 
 BUILD_CMD=(
-"alien    do      virtualbox-$VBOX_VERSION"
+"alien    do        virtualbox-$VBOX_VERSION"
 )
 
