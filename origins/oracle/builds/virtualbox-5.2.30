@@ -1,0 +1,14 @@
+#!bin/bash
+
+case $BANDIT_TARGET_ARCH in
+    i?86)
+        ARCH=i386
+        URL=https://download.virtualbox.org/virtualbox/5.2.30/VirtualBox-5.2.30-130521-Linux_x86.run
+        MD5=9987047515a5c224ba6ad67b6361823e
+        ;;
+    x86_64)
+        ARCH=x86_64
+        URL=https://download.virtualbox.org/virtualbox/5.2.30/VirtualBox-5.2.30-130521-Linux_amd64.run
+        MD5=2fbf3ad6b1fb9df985bab02555c10309
+        ;;
+esac

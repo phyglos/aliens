@@ -1,17 +1,18 @@
 #!/bin/bash
+source $BUILD_BUNDLES/virtualbox-desktop.conf
 
 # Use different releases for x86 and x86_64
 case $BANDIT_TARGET_ARCH in
     i?86)
-        VBOX_VERSION="5.2.28"
+        VBOX_VERSION="5.2.30"
         ;;
     x86_64)
         case $PHY_VBOX64 in
             "5.x") 
-                VBOX_VERSION="5.2.28"
+                VBOX_VERSION="5.2.30"
                 ;;
             "new") 
-                VBOX_VERSION="6.0.6"
+                VBOX_VERSION="6.0.8"
                 ;;
         esac
         ;;
