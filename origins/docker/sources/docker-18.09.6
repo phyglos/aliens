@@ -1,0 +1,7 @@
+URL=https://download.docker.com/linux/static/stable/x86_64/docker-18.09.6.tgz
+MD5=a6be1e734421d05abfc4d3e28997e271
+
+sources_prepare()
+{
+  bandit_source_repackage_into docker-18.09.6.tgz docker-18.09.6
+}

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+BUILD_CMD=( 
+'script   	run	docker-ce-setup'
+'package  	do	docker-18.09.6  tgz'
+)
