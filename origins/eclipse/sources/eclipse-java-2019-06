@@ -1,0 +1,8 @@
+URL=file:$BANDIT_DOWNLOADS/eclipse/eclipse-java-2019-06-R-linux-gtk-x86_64.tar.gz
+MD5=cdda169e002664dd1206c0d9e5380a82
+
+sources_prepare()
+{
+    bandit_source_rename eclipse-java-2019-06-R-linux-gtk-x86_64.tar.gz eclipse-java-2019-06.tar.gz
+    bandit_source_repackage_into eclipse-java-2019-06.tar.gz eclipse-java-2019-06
+}

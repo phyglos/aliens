@@ -1,0 +1,5 @@
+#!/bin/bash
+
+BUILD_CMD=( 
+'package   do	     eclipse-java-2019-06   tar.gz'
+)
