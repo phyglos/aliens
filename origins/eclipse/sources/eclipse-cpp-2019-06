@@ -1,0 +1,8 @@
+URL=file:$BANDIT_DOWNLOADS/eclipse/eclipse-cpp-2019-06-R-linux-gtk-x86_64.tar.gz
+MD5=6eccf433b04e55d51685228e856d63ed
+
+sources_prepare()
+{
+    bandit_source_rename eclipse-cpp-2019-06-R-linux-gtk-x86_64.tar.gz eclipse-cpp-2019-06.tar.gz
+    bandit_source_repackage_into eclipse-cpp-2019-06.tar.gz eclipse-cpp-2019-06
+}
