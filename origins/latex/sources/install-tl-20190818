@@ -1,0 +1,7 @@
+URL=ftp://ftp.fu-berlin.de/tex/CTAN/systems/texlive/tlnet/install-tl-unx.tar.gz
+MD5=ce15986ca432d20aecf942e82d8db77c
+
+sources_prepare()
+{
+    bandit_source_rename install-tl-unx.tar.gz install-tl-20190818.tar.gz
+}
