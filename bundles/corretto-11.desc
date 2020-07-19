@@ -1,6 +1,6 @@
 #!/bin/bash
 
 BUILD_CMD=( 
-'package  do      amazon-corretto-11.0.3.7.1-linux-x64   tar.gz'
+'package  do      amazon-corretto-11.0.8.10.1-linux-x64   tar.gz'
 'script   run     corretto-11-setup'
 )
